@@ -2,7 +2,6 @@
 ## Simple algorithm to find e-mails from INMETRO website based on company pages ##
 ## It is setup with RBLE certified URLs, but could be anything					##	
 ## The list will be further used as a marketing tool 							## 
-## Aferitec 2017 ##
 
 from lxml import html
 import requests, re, sys, os, time, csv
