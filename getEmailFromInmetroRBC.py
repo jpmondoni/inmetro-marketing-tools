@@ -95,7 +95,7 @@ def generateCSV(prospectList):
 
 ## NOTE: Some websites may block consecutive connection requests. Be careful to don't block your IP due to high number of connections. 
 baseURL = 'http://www.inmetro.gov.br/laboratorios/rbc/lista_laboratorios.asp?descr_ordem=num_certificado&nom_servico=&descr_area_atuacao=&nom_laboratorio=&sig_uf=&ind_pagina='
-for x in range(94,95):
+for x in range(0,95):
 	pageURL = baseURL+str(x)
 	rowlist.append(pageURL)
 	#print(pageURL)

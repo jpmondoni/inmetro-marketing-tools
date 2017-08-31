@@ -63,7 +63,7 @@ baseURL = 'http://www.inmetro.gov.br/laboratorios/rble/lista_laboratorios.asp?si
 #	#print(rowlist)
 
 ## NOTE: Some websites may block consecutive connection requests. Be careful to don't block your IP due to high number of connections. 
-for x in range(45,56):
+for x in range(0,56):
 	pageURL = baseURL+str(x)
 	rowlist.append(pageURL)
 
